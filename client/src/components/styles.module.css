@@ -1,0 +1,60 @@
+.chatlist {
+  position: absolute;
+  top: 16.5%;
+  left: 50%;
+  margin-left: -157px;
+  border: solid 1px #ddd;
+  padding: 10px;
+  height: 565px;
+  width: 295px;
+ 
+  background-color: cornsilk;
+  overflow: hidden;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  }
+  
+  .chatlist > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .textInput {
+    border: solid 1px #ddd;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .chatItem {
+    font-size: 18px;
+    color: #333;
+    border-radius: 8px;
+    background: #fff;
+    padding: 12px 18px;
+    border: 0.5px solid rgba(0, 0, 0, 0.02);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.08);
+    max-width: 70%;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 6px;
+    margin-right: auto;
+  }
+  
+  .chatItem.right {
+    margin-right: 0;
+    margin-left: auto;
+    background-color: #c8d4e8;
+  }
+  .bgImage{
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -192.5px;
+    margin-top: -380px;
+    z-index: -1;
+  }
